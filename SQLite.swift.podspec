@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SQLite.swift"
-  s.version          = "0.10.1"
+  s.version          = "0.10.2"
   s.summary          = "A type-safe, Swift-language layer over SQLite3 for iOS and OS X."
 
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     intent.
                        DESC
 
-  s.homepage         = "https://github.com/stephencelis/SQLite.swift"
+  s.homepage         = "https://github.com/nghiaphunguyen/SQLite.swift"
   s.license          = 'MIT'
   s.author           = { "Stephen Celis" => "stephen@stephencelis.com" }
   s.source           = { :git => "https://github.com/stephencelis/SQLite.swift.git", :tag => s.version.to_s }
