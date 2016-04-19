@@ -22,7 +22,7 @@
 // THE SOFTWARE.
 //
 
-import CSQLite
+//import CSQLite
 
 /// A single SQL statement.
 public final class Statement {

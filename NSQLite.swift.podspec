@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NSQLite.swift"
-  s.version          = "0.10.3"
+  s.version          = "0.10.4"
   s.summary          = "A type-safe, Swift-language layer over SQLite3 for iOS and OS X."
 
   s.description      = <<-DESC
