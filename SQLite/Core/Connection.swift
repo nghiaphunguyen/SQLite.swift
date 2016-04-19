@@ -528,7 +528,9 @@ public final class Connection {
         }
         var flags = SQLITE_UTF8
         if deterministic {
+            #if SQLITE_DETERMINISTIC
             flags |= SQLITE_DETERMINISTIC
+            #endif
         }
         sqlite3_create_function_v2(handle, function, Int32(argc), flags, unsafeBitCast(box, UnsafeMutablePointer<Void>.self), { context, argc, value in
             unsafeBitCast(sqlite3_user_data(context), Function.self)(context, argc, value)
