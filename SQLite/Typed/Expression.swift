@@ -24,7 +24,7 @@
 
 public protocol ExpressionType : Expressible { // extensions cannot have inheritance clauses
 
-    associatedtype UnderlyingType = Void
+    typealias UnderlyingType = Void
 
     var template: String { get }
     var bindings: [Binding?] { get }

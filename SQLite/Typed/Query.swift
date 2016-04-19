@@ -928,7 +928,9 @@ extension Connection {
         }()
 
         return AnySequence {
-            AnyGenerator { statement.next().map { Row(columnNames, $0) } }
+            anyGenerator({ () -> Row? in
+                statement.next().map { Row(columnNames, $0) }
+            })
         }
     }
 
