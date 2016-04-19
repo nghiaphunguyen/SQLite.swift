@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
     intent.
                        DESC
 
-  s.homepage         = "https://github.com/nghiaphunguyen/SQLite.swift"
+  s.homepage         = "https://github.com/stephencelis/SQLite.swift"
   s.license          = 'MIT'
   s.author           = { "Stephen Celis" => "stephen@stephencelis.com" }
-  s.source           = { :git => "https://github.com/stephencelis/SQLite.swift.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/nghiaphunguyen/SQLite.swift", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/stephencelis'
 
   s.module_name      = 'SQLite'
